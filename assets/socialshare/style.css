@@ -1,0 +1,25 @@
+.social-provider-icon {
+	background-image: url('icons.png');
+	background-repeat: no-repeat;
+	width: 32px;
+	height: 32px;
+	display: block;
+	float: left;
+	border: none !important;
+	cursor: pointer;
+	text-decoration: none;
+	margin-right: 5px;
+}
+.social-provider-icon:hover {
+	text-decoration: none;
+}
+
+.social-provider-icon.twitter {
+	background-position: 0 0px;
+}
+.social-provider-icon.google {
+	background-position: 0 -32px;
+}
+.social-provider-icon.facebook {
+	background-position: 0 -64px;
+}
