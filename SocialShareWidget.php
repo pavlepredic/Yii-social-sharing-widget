@@ -106,7 +106,7 @@ class SocialShareWidget extends CWidget
 		if (!isset($opts['id']))
 			$opts['id'] = $this->getId();
 		
-		echo CHtml::tag('div', $opts);
+		echo CHtml::tag('div', $opts, null, false);
 		foreach ($this->services as $service)
 		{
 			if (!array_key_exists($service, $this->serviceUrls))
